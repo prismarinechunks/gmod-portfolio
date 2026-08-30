@@ -1,220 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XeroChunks - Garry's Mod Developer</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1013">
+<meta name="description" content="XeroChunks — Garry's Mod developer portfolio.">
+<title>XeroChunks // Garry's Mod Developer</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- NAVIGATION BAR -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">XeroChunks</div>
-            <ul class="nav-menu">
-                <li><a href="#hero" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#achievements" class="nav-link">Achievements</a></li>
-                <li><a href="#showcase" class="nav-link">Showcase</a></li>
-                <li><a href="#github" class="nav-link">Links</a></li>
-            </ul>
-        </div>
+<div class="scanlines" aria-hidden="true"></div>
+
+<header class="actionbar">
+  <div class="actionbar-inner">
+    <a class="brand" href="#home"><span class="brand-mark">X</span><span>XeroChunks</span></a>
+    <nav class="tabs" aria-label="Primary navigation">
+      <a class="tab active" href="#home">HOME</a>
+      <a class="tab" href="#about">ABOUT</a>
+      <a class="tab" href="#projects">PROJECTS</a>
+      <a class="tab" href="#achievements">ACHIEVEMENTS</a>
+      <a class="tab" href="#showcase">SHOWCASE</a>
+      <a class="tab" href="#links">LINKS</a>
     </nav>
+  </div>
+  <div class="holo-line"></div>
+</header>
 
-    <!-- HERO SECTION -->
-    <section id="hero" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">XeroChunks</h1>
-                <p class="hero-subtitle">Garry's Mod Developer</p>
-                <p class="hero-description">Creating addons, NPCs, SWEPs, entities, gamemodes, and frameworks with GLua.</p>
-                
-                <div class="hero-buttons">
-                    <a href="https://github.com/prismarinechunks" class="btn btn-primary" target="_blank">GitHub</a>
-                    <a href="https://steamcommunity.com/id/xerochunks/myworkshopfiles/" class="btn btn-primary" target="_blank">Steam Workshop</a>
-                    <a href="https://discord.gg/XRNveUZWcX" class="btn btn-primary" target="_blank">Discord</a>
-                </div>
-            </div>
-            
-            <div class="hero-image">
-                <div class="image-placeholder large">
-                    XeroChunks
-                </div>
-            </div>
+<main>
+<section id="home" class="screen hero-screen">
+  <div class="screen-inner hero-layout">
+    <div class="hero-copy">
+      <div class="status-line"><span class="status-dot"></span>SYSTEM READY</div>
+      <h1>XeroChunks</h1>
+      <p class="hero-subtitle">Garry's Mod Developer</p>
+      <p class="hero-description">Creating Garry's Mod addons, NPCs, SWEPs, entities, frameworks, and gameplay systems with GLua.</p>
+      <div class="button-row">
+        <a class="holo-button primary" href="https://github.com/prismarinechunks" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="holo-button" href="https://steamcommunity.com/id/xerochunks/myworkshopfiles/" target="_blank" rel="noopener noreferrer">Steam Workshop</a>
+        <a class="holo-button" href="https://discord.gg/XRNveUZWcX" target="_blank" rel="noopener noreferrer">Discord</a>
+      </div>
+      <div class="system-readout">
+        <span>PLATFORM</span><strong>GARRY'S MOD</strong>
+        <span>LANGUAGE</span><strong>GLUA</strong>
+        <span>FOCUS</span><strong>ADDONS / FRAMEWORKS</strong>
+      </div>
+    </div>
+
+    <div class="device-panel">
+      <div class="panel-bar"><span>DEVELOPER PROFILE</span><span class="panel-code">XC-01</span></div>
+      <div class="profile-core">
+        <img class="profile-avatar" src="https://avatars.fastly.steamstatic.com/2158a68090be7b64dcb7fe7d6e2c63a7a7808c23_full.jpg" alt="XeroChunks Steam profile picture">
+        <div><div class="profile-name">XEROCHUNKS</div><div class="profile-role">GARRY'S MOD / GLUA</div></div>
+      </div>
+      <div class="profile-lines">
+        <div><span>STATUS</span><b>ONLINE</b></div>
+        <div><span>FEATURED</span><b>2 PROJECTS</b></div>
+        <div><span>SHOWCASE</span><b>5 IMAGES</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="screen">
+  <div class="screen-inner">
+    <div class="section-heading"><span class="section-index">01</span><div><p class="eyebrow">ABOUT</p><h2>Development Profile</h2></div></div>
+    <div class="two-column">
+      <div class="list-panel">
+        <div class="panel-bar">ABOUT XEROCHUNKS</div>
+        <div class="panel-body">
+          <p>I'm a Garry's Mod developer focused on building polished addons, custom gameplay systems, NPCs, SWEPs, entities, and development frameworks with GLua.</p>
+          <p>I enjoy combining systems into reusable bases and turning larger ideas into cohesive, playable GMod projects.</p>
         </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About</h2>
-            
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a Garry's Mod developer passionate about creating polished, functional addons and frameworks. I work extensively with GLua to build custom entities, NPCs, SWEPs, gamemodes, and gameplay systems that enhance the GMod experience.</p>
-                    
-                    <h3 class="about-subtitle">Specializations:</h3>
-                    <ul class="skill-list">
-                        <li>GLua scripting</li>
-                        <li>Custom NPCs & AI</li>
-                        <li>SWEPs (weapons)</li>
-                        <li>Custom entities</li>
-                        <li>Gamemode development</li>
-                        <li>Addon creation</li>
-                        <li>Framework design</li>
-                        <li>Gameplay systems</li>
-                    </ul>
-                </div>
-                
-                <div class="about-image">
-                    <div class="image-placeholder medium">
-                        Skills & Experience
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="list-panel">
+        <div class="panel-bar">SPECIALIZATIONS</div>
+        <div class="spec-list">
+          <div class="spec-row"><span>01</span><b>GLua Scripting</b></div>
+          <div class="spec-row"><span>02</span><b>Custom NPCs &amp; AI</b></div>
+          <div class="spec-row"><span>03</span><b>SWEP Development</b></div>
+          <div class="spec-row"><span>04</span><b>Custom Entities</b></div>
+          <div class="spec-row"><span>05</span><b>Gamemode Development</b></div>
+          <div class="spec-row"><span>06</span><b>Addon Creation</b></div>
+          <div class="spec-row"><span>07</span><b>Framework Design</b></div>
+          <div class="spec-row"><span>08</span><b>Gameplay Systems</b></div>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            
-            <div class="projects-grid">
-                <!-- PROJECT 1: PvZ Plants vs Zombies NPCs -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./images/20260828143506_1.jpg" alt="PvZ Plants vs Zombies NPCs - Plant NPC" class="project-img">
-                    </div>
-                    
-                    <div class="project-content">
-                        <h3 class="project-title">PvZ Plants vs Zombies NPCs</h3>
-                        <p class="project-description">A Garry's Mod PvZ NPC addon featuring custom plants, zombies, AI combat systems, ranged attacks, projectiles, and multiplayer support.</p>
-                        
-                        <div class="project-links">
-                            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3768710439" class="link-btn" target="_blank">Workshop</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- PROJECT 2: DrGBase + 308 Base -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            Framework
-                        </div>
-                    </div>
-                    
-                    <div class="project-content">
-                        <h3 class="project-title">DrGBase + 308 Base</h3>
-                        <p class="project-description">A unified Garry's Mod development framework combining DrGBase and 308 Base with improved structure, compatibility, NPC support, and reusable systems.</p>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/prismarinechunks/x308base" class="link-btn" target="_blank">GitHub</a>
-                            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3786904478" class="link-btn" target="_blank">Workshop</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<section id="projects" class="screen alt-screen">
+  <div class="screen-inner">
+    <div class="section-heading"><span class="section-index">02</span><div><p class="eyebrow">PROJECTS</p><h2>Featured Work</h2></div></div>
+    <div class="project-grid">
+      <article class="project-panel">
+        <div class="project-image"><img src="https://images.steamusercontent.com/ugc/18247279323215421523/B775B6889C3A28076171DE413E227483AACACFFD/?imw=268&amp;imh=268&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" alt="PvZ Plants vs Zombies NPCs Workshop artwork"></div>
+        <div class="panel-bar"><span>PvZ PLANTS VS ZOMBIES NPCs</span><span class="panel-code">ADDON</span></div>
+        <div class="project-body">
+          <p>A Garry's Mod PvZ NPC addon featuring custom plants, zombies, AI combat systems, ranged attacks, projectiles, and multiplayer support.</p>
+          <div class="button-row compact"><a class="holo-button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3768710439" target="_blank" rel="noopener noreferrer">Workshop</a></div>
         </div>
-    </section>
+      </article>
 
-    <!-- ACHIEVEMENTS SECTION -->
-    <section id="achievements" class="achievements">
-        <div class="container">
-            <h2 class="section-title">Achievements</h2>
-            
-            <div class="achievements-grid">
-                <div class="achievement-card">
-                    <div class="achievement-icon">✓</div>
-                    <h3 class="achievement-title">Built PvZ GMod Addon</h3>
-                    <p class="achievement-description">Created a polished Plants vs. Zombies-inspired Garry's Mod addon with custom entities, NPC behavior, gameplay mechanics, and systems.</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">⚙</div>
-                    <h3 class="achievement-title">Framework Integration</h3>
-                    <p class="achievement-description">Merged DrGBase and 308 Base functionality into a unified framework with improved code structure and NPC support.</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">★</div>
-                    <h3 class="achievement-title">Custom Systems Development</h3>
-                    <p class="achievement-description">Developed frameworks and reusable components for Garry's Mod addon creation and game systems.</p>
-                </div>
-            </div>
+      <article class="project-panel">
+        <div class="project-image project-icon"><img src="https://images.steamusercontent.com/ugc/17803185157345047019/B9D2EEA1385E8ED7239929D3431F8EFCBD760C0C/?imw=637&amp;imh=358&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" alt="DrGBase and 308 Base Workshop artwork"></div>
+        <div class="panel-bar"><span>DrGBase + 308 Base</span><span class="panel-code">FRAMEWORK</span></div>
+        <div class="project-body">
+          <p>A unified Garry's Mod development framework combining DrGBase and 308 Base with improved structure, compatibility, NPC support, and reusable systems.</p>
+          <div class="button-row compact">
+            <a class="holo-button" href="https://github.com/prismarinechunks/x308base" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="holo-button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3786904478" target="_blank" rel="noopener noreferrer">Workshop</a>
+          </div>
         </div>
-    </section>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <!-- SHOWCASE SECTION -->
-    <section id="showcase" class="showcase">
-        <div class="container">
-            <h2 class="section-title">Showcase</h2>
-            
-            <div class="showcase-gallery">
-                <div class="showcase-item">
-                    <img src="./images/20260828143506_1.jpg" alt="PvZ Plant NPC in gameplay" class="showcase-image">
-                    <p class="showcase-caption">Plant NPC</p>
-                </div>
+<section id="achievements" class="screen">
+  <div class="screen-inner">
+    <div class="section-heading"><span class="section-index">03</span><div><p class="eyebrow">ACHIEVEMENTS</p><h2>Development Milestones</h2></div></div>
+    <div class="achievement-list">
+      <article class="achievement-row"><div class="achievement-icon">✓</div><div><p class="eyebrow">ADDON DEVELOPMENT</p><h3>Built a PvZ GMod Addon</h3><p>Created a polished Plants vs. Zombies-inspired Garry's Mod addon with custom entities, NPC behavior, gameplay mechanics, and systems designed to work together as a complete experience.</p></div></article>
+      <article class="achievement-row"><div class="achievement-icon">⚙</div><div><p class="eyebrow">FRAMEWORK INTEGRATION</p><h3>Merged DrGBase + 308 Base</h3><p>Worked on combining DrGBase and 308 Base functionality, restructuring systems toward a unified Garry's Mod development framework with reusable components.</p></div></article>
+      <article class="achievement-row"><div class="achievement-icon">★</div><div><p class="eyebrow">CUSTOM SYSTEMS</p><h3>Built Reusable GMod Systems</h3><p>Developed reusable framework components and gameplay systems for custom Garry's Mod addon development.</p></div></article>
+    </div>
+  </div>
+</section>
 
-                <div class="showcase-item">
-                    <img src="./images/20260828144733_1.jpg" alt="PvZ Zombie Character" class="showcase-image">
-                    <p class="showcase-caption">Zombie NPC</p>
-                </div>
+<section id="showcase" class="screen alt-screen">
+  <div class="screen-inner">
+    <div class="section-heading"><span class="section-index">04</span><div><p class="eyebrow">SHOWCASE</p><h2>PvZ Development Screens</h2></div></div>
+    <div class="gallery-grid">
+      <button class="gallery-item" type="button" data-full="./images/20260828143506_1.jpg" data-title="Plant NPC"><img src="./images/20260828143506_1.jpg" alt="PvZ Plant NPC in gameplay" loading="lazy"><span>PLANT NPC</span></button>
+      <button class="gallery-item" type="button" data-full="./images/20260828144733_1.jpg" data-title="Zombie NPC"><img src="./images/20260828144733_1.jpg" alt="PvZ Zombie NPC in gameplay" loading="lazy"><span>ZOMBIE NPC</span></button>
+      <button class="gallery-item" type="button" data-full="./images/20260828144752_1.jpg" data-title="Plant Combat"><img src="./images/20260828144752_1.jpg" alt="PvZ Plant combat scene" loading="lazy"><span>PLANT COMBAT</span></button>
+      <button class="gallery-item" type="button" data-full="./images/20260828144831_1.jpg" data-title="Zombie AI"><img src="./images/20260828144831_1.jpg" alt="PvZ Zombie AI scene" loading="lazy"><span>ZOMBIE AI</span></button>
+      <button class="gallery-item" type="button" data-full="./images/20260828144844_1.jpg" data-title="Gameplay"><img src="./images/20260828144844_1.jpg" alt="PvZ gameplay scene" loading="lazy"><span>GAMEPLAY</span></button>
+    </div>
+  </div>
+</section>
 
-                <div class="showcase-item">
-                    <img src="./images/20260828144752_1.jpg" alt="PvZ Plant on rooftop" class="showcase-image">
-                    <p class="showcase-caption">Plant Combat</p>
-                </div>
+<section id="links" class="screen">
+  <div class="screen-inner">
+    <div class="section-heading"><span class="section-index">05</span><div><p class="eyebrow">LINKS</p><h2>Project Access</h2></div></div>
+    <div class="link-list">
+      <a class="access-row" href="https://github.com/prismarinechunks" target="_blank" rel="noopener noreferrer"><span class="access-icon">⌂</span><span><small>GITHUB</small><b>prismarinechunks</b></span><span class="access-arrow">›</span></a>
+      <a class="access-row" href="https://github.com/prismarinechunks/x308base" target="_blank" rel="noopener noreferrer"><span class="access-icon">⌘</span><span><small>XBASE REPOSITORY</small><b>prismarinechunks/x308base</b></span><span class="access-arrow">›</span></a>
+      <a class="access-row" href="https://steamcommunity.com/id/xerochunks/myworkshopfiles/" target="_blank" rel="noopener noreferrer"><span class="access-icon">▣</span><span><small>STEAM WORKSHOP</small><b>Browse my addons</b></span><span class="access-arrow">›</span></a>
+      <a class="access-row" href="https://discord.gg/XRNveUZWcX" target="_blank" rel="noopener noreferrer"><span class="access-icon">◉</span><span><small>DISCORD</small><b>Join the community</b></span><span class="access-arrow">›</span></a>
+    </div>
+  </div>
+</section>
+</main>
 
-                <div class="showcase-item">
-                    <img src="./images/20260828144831_1.jpg" alt="PvZ Zombie with sign" class="showcase-image">
-                    <p class="showcase-caption">Zombie AI</p>
-                </div>
+<div class="lightbox" aria-hidden="true">
+  <div class="lightbox-backdrop"></div>
+  <div class="lightbox-window" role="dialog" aria-modal="true" aria-label="Showcase image">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <div class="lightbox-title"></div>
+    <img class="lightbox-image" src="" alt="">
+  </div>
+</div>
 
-                <div class="showcase-item">
-                    <img src="./images/20260828144844_1.jpg" alt="PvZ Gameplay Scene" class="showcase-image">
-                    <p class="showcase-caption">Gameplay</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- LINKS SECTION -->
-    <section id="github" class="links-section">
-        <div class="container">
-            <h2 class="section-title">Links</h2>
-            
-            <div class="links-grid">
-                <a href="https://github.com/prismarinechunks" class="link-card" target="_blank">
-                    <div class="link-icon">⚙</div>
-                    <h3>GitHub</h3>
-                    <p>View repositories</p>
-                </a>
-
-                <a href="https://steamcommunity.com/id/xerochunks/myworkshopfiles/" class="link-card" target="_blank">
-                    <div class="link-icon">📦</div>
-                    <h3>Steam Workshop</h3>
-                    <p>Browse addons</p>
-                </a>
-
-                <a href="https://discord.gg/XRNveUZWcX" class="link-card" target="_blank">
-                    <div class="link-icon">💬</div>
-                    <h3>Discord</h3>
-                    <p>Join community</p>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 XeroChunks. Garry's Mod Developer.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<footer class="footer"><div class="footer-inner"><span>XeroChunks</span><span>GARRY'S MOD DEVELOPER</span><span>© 2026</span></div></footer>
+<script src="script.js"></script>
 </body>
 </html>
